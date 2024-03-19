@@ -1,6 +1,6 @@
 # File names should be standardized according to this format:
 
-[Date when published, YYYY-MM-DD, fixed length] - [Autonomous System Number, 5 digits, variable length from at least 5 characters] - 
+[Date when published, YYYY-MM-DD, fixed length] - [Autonomous System Number, 10 digits, fixed length] - 
 [Country Code, 4 digits, fixed length] - [Version number in two digits, starting from 00, fixed length] - [Unique ID of Tier, in 10 digits, fixed length] - 
 [Advertised downstream speed in Mbps, variable length numeric field] - [Advertised upstream speed in Mbps, variable length numeric field] - 
 [Access technology type ID, 4 digits, fixed length] - [Termination Type, 2 digits, fixed legth] - [Customer type ID, 4 digits fixed length] in a 
@@ -13,7 +13,7 @@ Example: AS7922 for Comcast in North America is issued by ARIN and can be found 
 For further reading: https://www.arin.net/resources/guide/asn/
 
 ## Country Code (CC)
-Three digit country code identifier \
+Foir digit country code identifier \
 Uses ISO 3166-1 numeric codes \
 For references see the full list at https://www.iso.org/obp/ui/#search
 
@@ -83,4 +83,5 @@ A label published on March 19, 2024. It describes a Comcast tier in the US with 
 
 ## File Name Example: 
 2024-03-19-0000007922-840-00-0000000002-800-200-001-001-0000.csv
+
 
