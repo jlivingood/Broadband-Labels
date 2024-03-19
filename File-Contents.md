@@ -48,8 +48,27 @@ LABEL-DETAILS, \
 [Conditional - IF discounts available above = 0] [URL for terms, 256 characters] ex: https://example.com/promotions/internet \
 [Participates In Subsidy Program, 1 number - either 0 for YES or 1 for NO] ex: 0 \
 [Conditional - IF subsidy program above = 0] [fixed length, 6 numbers, see table below] ex: ACP, so value = 000001 \
+[Label downstream speed in Mbps, variable length numeric field],  ex: 800 Mbps = 800 \
+[Label upstream speed in Mbps, variable length numeric field], ex: 200 Mbps = 200 \
+[Label idle latency, in ms, variable length numeric field], ex: 15 ms = 15 \
+[Label working latency, in ms, variable length numeric field], ex: 50 ms = 50 \
+[Label uptime, in percent with 2 digits after the decimal, variable length numeric field], ex: 99.87% = 0.9987 \
+[Network Management Policy, 1 number - either 0 for Yes or 1 for No] ex: 0 \
+[Conditional - IF policy above = 0] [URL for policy, 256 characters] ex: https://example.com/network-management/internet \
+[Privacy Policy, 1 number - either 0 for Yes or 1 for No] ex: 0 \
+[Conditional - IF policy above = 0] [URL for policy, 256 characters] ex: https://example.com/privacy/internet \
+[Support Information] [URL for support, 256 characters] ex: https://example.com/support/internet \
+END-LABEL-DETAILS \
+START-UNIQUE-ID \
+The intent here is generate a unique one-time ID that represents the label file presented, when it was presented, and to whom it was prevented. This may subsequently be recorded in regulatory compliance systems and in customer records. 
 
- 
+Ex: 
+File shown is named 2024-03-19-0000007922-840-00-0000000002-800-200-001-001-0000.csv
+Was shown 2023-03-19 at 14:23 UTC
+Customer account number is ABCD12345XZY
+So -- generate Unique ID = 2024-03-19-0000007922-840-00-0000000002-800-200-001-001-0000-2023-03-19-1423-ABCD12345XZY
+END-UNIQUE-ID \
+
 END-FILE \
 
 ## Timeframe of Pricing Table
@@ -79,10 +98,6 @@ A label published on March 19, 2024. It describes a Comcast tier in the US with 
 
 ## File Name Example: 
 2024-03-19-0000007922-840-00-0000000002-800-200-001-001-0000.csv
-
-
-
-
 
 
 [ISSUE: Should we leverage some type of certificate PKI system top validate the file?]
