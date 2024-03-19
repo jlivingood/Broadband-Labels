@@ -6,25 +6,25 @@
 [Access technology type ID, 4 digits, fixed length] - [Termination Type, 2 digits, fixed legth] - [Customer type ID, 4 digits fixed length] in a 
 Comma Separated Value (CSV) file.
 
-# Autonomous System Number (ASN)
+## Autonomous System Number (ASN)
 Use the fixed 10-digit ASN from regional internet registries to uniquely identify each ISP.
 See IANA ASN registry at https://www.iana.org/assignments/as-numbers/as-numbers.xhtml
 Example: AS7922 for Comcast in North America is issued by ARIN and can be found at https://whois.arin.net/rest/asn/AS7922
 For further reading: https://www.arin.net/resources/guide/asn/
 
-# Country Code (CC)
+## Country Code (CC)
 Three digit country code identifier
 Uses ISO 3166-1 numeric codes
 For references see the full list at https://www.iso.org/obp/ui/#search
 
-# Version numbers: start at 00 but increment to 01, 02, 03, and so on if corrections must be made. 
+## Version numbers: start at 00 but increment to 01, 02, 03, and so on if corrections must be made. 
 
-# Unique ID of Tiers: fixed 10 digit length. Relative to each ISP; so two ISPs may have the same unique ID but within each ISP that ID must be unique.
+## Unique ID of Tiers: fixed 10 digit length. Relative to each ISP; so two ISPs may have the same unique ID but within each ISP that ID must be unique.
 [ISSUE: Alternatively, have a national registry of tiers with each unique ID being nationally unqiue]
 
-# Advertised speeds: Variable length numeric field, in Mbps without commas between thousands. So 800 Mbps is 800, and 1.2 Gbps is 1200. 
+## Advertised speeds: Variable length numeric field, in Mbps without commas between thousands. So 800 Mbps is 800, and 1.2 Gbps is 1200. 
 
-# Access Technology Type Table
+## Access Technology Type Table
 0000 - DSL
 0001 - HFC DOCSIS
 0002 - Wi-Fi
@@ -57,13 +57,13 @@ For references see the full list at https://www.iso.org/obp/ui/#search
 ....
 9999 - TBD
 
-# Termination Type Table
+## Termination Type Table
 00 - Fixed
 01 - Mobile
 ..
 99 - TBD
 
-# Customer Type Table
+## Customer Type Table
 0000 - Consumer fixed location
 0001 - Consumer mobile location (i.e., boat, plane, recreational vehicle)
 0002 - Commercial fixed location
@@ -75,7 +75,7 @@ For references see the full list at https://www.iso.org/obp/ui/#search
 ....
 9999 - TBD
 
-## Use Case:
+### Use Case:
 A label published on March 19, 2024. It describes a Comcast tier in the US with a speed of 800/200 using DOCSIS and delivered to an residential consumer's user's home. 
 
 ## File Name Example: 
