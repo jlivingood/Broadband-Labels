@@ -88,7 +88,6 @@ END-FILE
 13 - Post-Paid, Monthly \
 14 - Post-Paid, Annual \
 15-19 - Reserved for future pre-paid use \
-.. 
 20-99 - Reserved for future use 
 
 ## Subsidy Program
