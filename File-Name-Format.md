@@ -1,10 +1,16 @@
 # File names should be standardized according to this format:
 
-[Date when published, YYYY-MM-DD, fixed length] - [Autonomous System Number, 10 digits, fixed length] - 
-[Country Code, 4 digits, fixed length] - [Version number in two digits, starting from 00, fixed length] - [Unique ID of Tier, in 10 digits, fixed length] - 
-[Advertised downstream speed in Mbps, variable length numeric field] - [Advertised upstream speed in Mbps, variable length numeric field] - 
-[Access technology type ID, 4 digits, fixed length] - [Termination Type, 2 digits, fixed legth] - [Customer type ID, 4 digits fixed length] in a 
+[Date when published, YYYY-MM-DD, fixed length] - [Regulator Version, 3 digits, fixed length] - [Autonomous System Number, 10 digits, fixed length] - [Country Code, 4 digits, fixed length] - 
+[Version number in two digits, starting from 00, fixed length] - [Unique ID of Tier, in 10 digits, fixed length] - 
+[Advertised downstream speed in Mbps, variable length numeric field] - [Advertised upstream speed in Mbps, variable length numeric field] - [Access technology type ID, 4 digits, fixed length] - [Termination Type, 2 digits, fixed legth] - [Customer type ID, 4 digits fixed length] in a 
 Comma Separated Value (CSV) file.
+
+## Regulator Version
+4 digit fixed length, specifies the version of label regulatory requirements that will presumably change over time \
+00 - Initial version /
+01 - First update - 2nd version /
+.. /
+99
 
 ## Autonomous System Number (ASN)
 Use the fixed 10-digit ASN from regional internet registries to uniquely identify each ISP. \
