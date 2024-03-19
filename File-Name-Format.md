@@ -17,12 +17,15 @@ Three digit country code identifier
 Uses ISO 3166-1 numeric codes
 For references see the full list at https://www.iso.org/obp/ui/#search
 
-## Version numbers: start at 00 but increment to 01, 02, 03, and so on if corrections must be made. 
+## Version numbers: 
+Start at 00 but increment to 01, 02, 03, and so on if corrections must be made. 
 
-## Unique ID of Tiers: fixed 10 digit length. Relative to each ISP; so two ISPs may have the same unique ID but within each ISP that ID must be unique.
+## Unique ID of Tiers: 
+Fixed 10 digit length. Relative to each ISP; so two ISPs may have the same unique ID but within each ISP that ID must be unique.
 [ISSUE: Alternatively, have a national registry of tiers with each unique ID being nationally unqiue]
 
-## Advertised speeds: Variable length numeric field, in Mbps without commas between thousands. So 800 Mbps is 800, and 1.2 Gbps is 1200. 
+## Advertised speeds: 
+Variable length numeric field, in Mbps without commas between thousands. So 800 Mbps is 800, and 1.2 Gbps is 1200. 
 
 ## Access Technology Type Table
 0000 - DSL
