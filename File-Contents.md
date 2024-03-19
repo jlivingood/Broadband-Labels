@@ -88,7 +88,7 @@ END-FILE
 13 - Post-Paid, Monthly \
 14 - Post-Paid, Annual \
 15-19 - Reserved for future pre-paid use \
-.. \ 
+.. 
 20-99 - Reserved for future use 
 
 ## Subsidy Program
@@ -100,7 +100,7 @@ END-FILE
 A label published on March 19, 2024. It describes a Comcast tier in the US with a speed of 800\200 using DOCSIS and delivered to an residential consumer's user's home. 
 
 ## File Name Example: 
-2024-03-19-0000007922-840-00-0000000002-800-200-001-001-0000.csv \
+2024-03-19-0000007922-840-00-0000000002-800-200-001-001-0000.csv 
 
 
 [ISSUE: Should we leverage some type of certificate PKI system top validate the file?]
