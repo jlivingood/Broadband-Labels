@@ -19,7 +19,7 @@ Example: AS7922 for Comcast in North America is issued by ARIN and can be found 
 For further reading: https://www.arin.net/resources/guide/asn/
 
 ## Country Code (CC)
-Foir digit country code identifier \
+Four digit country code identifier \
 Uses ISO 3166-1 numeric codes \
 For references see the full list at https://www.iso.org/obp/ui/#search
 
@@ -31,7 +31,8 @@ Fixed 10 digit length. Relative to each ISP; so two ISPs may have the same uniqu
 [ISSUE: Alternatively, have a national registry of tiers with each unique ID being nationally unqiue]
 
 ## Advertised speeds: 
-Variable length numeric field, in Mbps without commas between thousands. So 800 Mbps is 800, and 1.2 Gbps is 1200. 
+Variable length numeric field, in Mbps without commas between thousands. So 800 Mbps is 800, and 1.2 Gbps is 1200. \
+If the speed is UNDER 1 Mbps, then just mark this field as 1 to represent 1 or fewer Mbps. 
 
 ## Access Technology Type Table
 0000 - DSL \
