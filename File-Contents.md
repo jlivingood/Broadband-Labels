@@ -67,9 +67,12 @@ File shown is named 2024-03-19-0000007922-840-00-0000000002-800-200-001-001-0000
 Was shown 2023-03-19 at 14:23 UTC \
 Customer account number is ABCD12345XZY \
 So -- generate Unique ID = 2024-03-19-0000007922-840-00-0000000002-800-200-001-001-0000-2023-03-19-1423-ABCD12345XZY \
+
 END-UNIQUE-ID \
 
+
 END-FILE \
+
 
 ## Timeframe of Pricing Table
 00 - Pre-Paid, Hourly \
