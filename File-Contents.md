@@ -5,7 +5,7 @@ See also the File Name Format guide at https:\\github.com\jlivingood\Broadband-L
 ## Header of the file (first several fields) MUST mirror the file name, for consistency
 ### File names should be standardized according to this format:
 
-HEADER, \
+HEADER, 
 
 
 [Date when published, YYYY-MM-DD, fixed length] \
@@ -18,10 +18,10 @@ HEADER, \
 [Advertised upstream speed in Mbps, variable length numeric field],  \
 [Access technology type ID, 4 digits, fixed length], \
 [Termination Type, 2 digits, fixed legth], \
-[Customer type ID, 4 digits, fixed length] \
+[Customer type ID, 4 digits, fixed length] 
 
 
-LABEL-DETAILS, \
+LABEL-DETAILS, 
 
 
 [Provider Name, up to 64 characters, variable length] ex: Xfinity Internet \
@@ -60,18 +60,18 @@ LABEL-DETAILS, \
 [Support Information] [URL for support, 256 characters] ex: https://example.com/support/internet \
 END-LABEL-DETAILS \
 START-UNIQUE-ID \
-The intent here is generate a unique one-time ID that represents the label file presented, when it was presented, and to whom it was prevented. This may subsequently be recorded in regulatory compliance systems and in customer records. \
+The intent here is generate a unique one-time ID that represents the label file presented, when it was presented, and to whom it was prevented. This may subsequently be recorded in regulatory compliance systems and in customer records. 
 
 Ex: \
 File shown is named 2024-03-19-0000007922-840-00-0000000002-800-200-001-001-0000.csv \
 Was shown 2023-03-19 at 14:23 UTC \
 Customer account number is ABCD12345XZY \
-So -- generate Unique ID = 2024-03-19-0000007922-840-00-0000000002-800-200-001-001-0000-2023-03-19-1423-ABCD12345XZY \
+So -- generate Unique ID = 2024-03-19-0000007922-840-00-0000000002-800-200-001-001-0000-2023-03-19-1423-ABCD12345XZY 
 
-END-UNIQUE-ID \
+END-UNIQUE-ID 
 
 
-END-FILE \
+END-FILE 
 
 
 ## Timeframe of Pricing Table
