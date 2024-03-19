@@ -1,16 +1,21 @@
 # File names should be standardized according to this format:
 
 [Date when published, YYYY-MM-DD, fixed length] - [Autonomous System Number, 5 digits, variable length from at least 5 characters] - 
-[Country Code, 2 characters, fixed length] - [Version number in two digits, starting from 00, fixed length] - [Unique ID of Tier, in 10 digits, fixed length] - 
+[Country Code, 4 digits, fixed length] - [Version number in two digits, starting from 00, fixed length] - [Unique ID of Tier, in 10 digits, fixed length] - 
 [Advertised downstream speed in Mbps, variable length numeric field] - [Advertised upstream speed in Mbps, variable length numeric field] - 
 [Access technology type ID, 4 digits, fixed length] - [Termination Type, 2 digits, fixed legth] - [Customer type ID, 4 digits fixed length] in a 
 Comma Separated Value (CSV) file.
 
 # Autonomous System Number (ASN)
-Use the fixed 5-digit ASN from regional internet registries to uniquely identify each ISP.
+Use the fixed 10-digit ASN from regional internet registries to uniquely identify each ISP.
+See IANA ASN registry at https://www.iana.org/assignments/as-numbers/as-numbers.xhtml
+Example: AS7922 for Comcast in North America is issued by ARIN and can be found at https://whois.arin.net/rest/asn/AS7922
+For further reading: https://www.arin.net/resources/guide/asn/
 
 # Country Code (CC)
-Two charachter country code identifier
+Three digit country code identifier
+Uses ISO 3166-1 numeric codes
+For references see the full list at https://www.iso.org/obp/ui/#search
 
 # Version numbers: start at 00 but increment to 01, 02, 03, and so on if corrections must be made. 
 
@@ -74,5 +79,5 @@ Two charachter country code identifier
 A label published on March 19, 2024. It describes a Comcast tier in the US with a speed of 800/200 using DOCSIS and delivered to an residential consumer's user's home. 
 
 ## File Name Example: 
-2024-03-19-7922-US-00-0000000002-800-200-001-001-0000.csv
+2024-03-19-0000007922-840-00-0000000002-800-200-001-001-0000.csv
 
