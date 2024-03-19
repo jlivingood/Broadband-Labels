@@ -58,13 +58,13 @@ Variable length numeric field, in Mbps without commas between thousands. So 800 
 0027 - 50G-EPON FTTP \
 0028 - 100G-EPON FTTP \
 .... \
-9999 - TBD \
+9999 - TBD 
 
 ## Termination Type Table
 00 - Fixed \
 01 - Mobile \
 .. \
-99 - TBD \
+99 - TBD 
 
 ## Customer Type Table
 0000 - Consumer fixed location \
@@ -76,7 +76,7 @@ Variable length numeric field, in Mbps without commas between thousands. So 800 
 0006 - Consumer robot \
 0007 - Commercial robot \
 .... \
-9999 - TBD \
+9999 - TBD 
 
 ### Use Case:
 A label published on March 19, 2024. It describes a Comcast tier in the US with a speed of 800/200 using DOCSIS and delivered to an residential consumer's user's home. 
