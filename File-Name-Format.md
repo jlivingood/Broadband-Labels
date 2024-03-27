@@ -1,3 +1,6 @@
+_Note: this assumes CSV - maybe consider XML as an alternative per Issue https://github.com/jlivingood/Broadband-Labels/issues/3_
+
+
 # File names should be standardized according to this format:
 
 [Date when published, YYYY-MM-DD, fixed length] - [Regulator Version, 3 digits, fixed length] - [Autonomous System Number, 10 digits, fixed length] - [Country Code, 4 digits, fixed length] - 
