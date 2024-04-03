@@ -11,12 +11,26 @@ We collaborate via GitHub using a markdown document and have a short weekly call
 # Draft Outline
 
 ## Background
-FCC BB label rulemaking, deadline, etc. 
+Explain the FCC BB label rulemaking, the October 2024 deadline, etc. 
 
 ## Why a Common Format is Useful
+Easier for providers, better for consumers and researchers, lower cost for the FCC, etc.
 
 ## Definition of Format
-Fields, values for fields, etc. 
+
+### File Type
+Explore pros and cons of XML, CSV, other formats.
+
+### File Name
+Explore formatting of file name.
+
+### File Contents
+Field types, values for fields, etc. 
+
+## Observations and Recommendations
+
+## Appendix: Sample Machine-Readable File
+
 
 # Schedule
 
