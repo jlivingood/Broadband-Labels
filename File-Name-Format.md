@@ -6,7 +6,7 @@ _Note: this assumes CSV - maybe consider XML as an alternative per Issue https:/
 [Date when published, YYYY-MM-DD, fixed length] - [Regulator Version, 3 digits, fixed length] - [Autonomous System Number, 10 digits, fixed length] - [Country Code, 4 digits, fixed length] - 
 [Version number in two digits, starting from 00, fixed length] - [Unique ID of Tier, in 10 digits, fixed length] - 
 [Advertised downstream speed in Mbps, variable length numeric field] - [Advertised upstream speed in Mbps, variable length numeric field] - [Access technology type ID, 4 digits, fixed length] - [Termination Type, 2 digits, fixed legth] - [Customer type ID, 4 digits fixed length] in a 
-Comma Separated Value (CSV) file.
+Comma Separated Value (CSV) file or XML file or whatever (TBD).
 
 ## Regulator Version
 4 digit fixed length, specifies the version of label regulatory requirements that will presumably change over time \
